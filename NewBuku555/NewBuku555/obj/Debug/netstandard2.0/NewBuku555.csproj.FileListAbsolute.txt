@@ -1,0 +1,12 @@
+C:\Users\userpc\Documents\Visual Studio 2017\Projects\NewBuku555\NewBuku555\NewBuku555\bin\Debug\netstandard2.0\NewBuku555.deps.json
+C:\Users\userpc\Documents\Visual Studio 2017\Projects\NewBuku555\NewBuku555\NewBuku555\bin\Debug\netstandard2.0\NewBuku555.dll
+C:\Users\userpc\Documents\Visual Studio 2017\Projects\NewBuku555\NewBuku555\NewBuku555\bin\Debug\netstandard2.0\NewBuku555.pdb
+C:\Users\userpc\Documents\Visual Studio 2017\Projects\NewBuku555\NewBuku555\NewBuku555\obj\Debug\netstandard2.0\NewBuku555.csprojResolveAssemblyReference.cache
+C:\Users\userpc\Documents\Visual Studio 2017\Projects\NewBuku555\NewBuku555\NewBuku555\obj\Debug\netstandard2.0\NewBuku555.csproj.CoreCompileInputs.cache
+C:\Users\userpc\Documents\Visual Studio 2017\Projects\NewBuku555\NewBuku555\NewBuku555\obj\Debug\netstandard2.0\NewBuku555.AddPage.xaml.g.cs
+C:\Users\userpc\Documents\Visual Studio 2017\Projects\NewBuku555\NewBuku555\NewBuku555\obj\Debug\netstandard2.0\NewBuku555.App.xaml.g.cs
+C:\Users\userpc\Documents\Visual Studio 2017\Projects\NewBuku555\NewBuku555\NewBuku555\obj\Debug\netstandard2.0\NewBuku555.MainPage.xaml.g.cs
+C:\Users\userpc\Documents\Visual Studio 2017\Projects\NewBuku555\NewBuku555\NewBuku555\obj\Debug\netstandard2.0\NewBuku555.AssemblyInfoInputs.cache
+C:\Users\userpc\Documents\Visual Studio 2017\Projects\NewBuku555\NewBuku555\NewBuku555\obj\Debug\netstandard2.0\NewBuku555.AssemblyInfo.cs
+C:\Users\userpc\Documents\Visual Studio 2017\Projects\NewBuku555\NewBuku555\NewBuku555\obj\Debug\netstandard2.0\NewBuku555.dll
+C:\Users\userpc\Documents\Visual Studio 2017\Projects\NewBuku555\NewBuku555\NewBuku555\obj\Debug\netstandard2.0\NewBuku555.pdb
