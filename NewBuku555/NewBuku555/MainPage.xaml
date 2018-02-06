@@ -4,16 +4,17 @@
              xmlns:local="clr-namespace:NewBuku555"
              x:Class="NewBuku555.MainPage">
 
-    <ContentPage.ToolbarItems>
+    <ContentPage.ToolbarItems >
+        
         <ToolbarItem Text="Add"
                      Activated="ToolbarItem_Activated"/>
     </ContentPage.ToolbarItems>
 
-    <ListView x:Name="hutangListView">
+    <ListView x:Name="hutangListView" Margin="5,5,5,0" >
         <ListView.ItemTemplate>
             <DataTemplate>
                 <TextCell Text="{Binding Name}"
-                          Detail="{Binding Amount}" Tapped="OnTapped" />
+                          Detail="{Binding Amount}" Tapped="OnTappedAsync" />
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>

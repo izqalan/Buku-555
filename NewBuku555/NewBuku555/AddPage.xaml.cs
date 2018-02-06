@@ -31,7 +31,10 @@ namespace NewBuku555
                 var numberOfRows = conn.Insert(h);
 
                 if (numberOfRows > 0)
+                {
                     DisplayAlert("Success", "Data has been stored", "OK");
+                    clear(); // clear form
+                }
                 else
                     DisplayAlert("Error", "Duplicate ID founded!", "OK");
 
@@ -40,6 +43,12 @@ namespace NewBuku555
 
 
 
+        }
+
+        public void clear()
+        {
+            nameEntry.Text = "";
+            amountEntry.Text = "";
         }
 	}
 }

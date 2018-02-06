@@ -11,19 +11,47 @@ namespace NewBuku555
 	{
 		public MainPage()
 		{
-			InitializeComponent();
+            Title = "Hutang";
+            InitializeComponent();
+            
 		}
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-
+       
             using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.DB_PATH))
             {
                 conn.CreateTable<Hutang>();
                 var h = conn.Table<Hutang>().ToList();
 
                 hutangListView.ItemsSource = h;
+            }
+        }
+
+        private async void OnTappedAsync(object sender, EventArgs e)
+        {
+            string x = await DisplayActionSheet("What todo", "Go back", null, "Remove", "Update");
+
+            switch (x)
+            {
+                case "Remove":
+                    
+                    await DisplayAlert("Alert", "Record removed.", "OK");
+                    // use using( SQLite )
+                    SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.DB_PATH);
+                    
+
+
+                    break;
+
+                case "Update":
+
+
+                    break;
+                
+                default:
+                    break;
             }
         }
         
