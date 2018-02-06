@@ -19,6 +19,7 @@ namespace NewBuku555
 
         private void Button_Clicked(object sender, EventArgs e)
         {
+            Title = "Creditor";
             Hutang h = new Hutang()
             {
                 Name = nameEntry.Text,
