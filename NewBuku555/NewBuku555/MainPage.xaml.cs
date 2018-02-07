@@ -54,11 +54,7 @@ namespace NewBuku555
         
         private void remove()
         {
-            Hutang h = new Hutang();
-            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(App.DB_PATH))
-            {
-                
-            }
+            
         }
 
         private void ToolbarItem_Activated(object sender, EventArgs e)

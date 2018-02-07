@@ -14,12 +14,13 @@ namespace NewBuku555
 	{
 		public AddPage ()
 		{
-			InitializeComponent ();
+            Title = "Creditor";
+            InitializeComponent ();
 		}
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Title = "Creditor";
+            
             Hutang h = new Hutang()
             {
                 Name = nameEntry.Text,
@@ -33,8 +34,10 @@ namespace NewBuku555
 
                 if (numberOfRows > 0)
                 {
-                    DisplayAlert("Success", "Data has been stored", "OK");
                     clear(); // clear form
+                    DisplayAlert("Success", "Data has been stored", "OK");
+                    Navigation.PopAsync(); // go back to main page
+
                 }
                 else
                     DisplayAlert("Error", "Duplicate ID founded!", "OK");

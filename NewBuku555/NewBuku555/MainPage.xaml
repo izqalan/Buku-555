@@ -14,7 +14,8 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <TextCell Text="{Binding Name}"
-                          Detail="{Binding Amount}" Tapped="OnTappedAsync" />
+                          Detail="{Binding Amount}" Tapped="OnTappedAsync" 
+                          CommandParameter="{Binding I}"/>
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
