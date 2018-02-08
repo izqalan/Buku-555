@@ -9,3 +9,6 @@ This is a personal project to gain me better understanding of cross-platform mob
 
 ## Authors
 [@izqalan](https://twitter.com/izqalan)
+
+## Frameworks used
+* Xamarin
