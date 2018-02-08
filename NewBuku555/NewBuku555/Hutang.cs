@@ -9,8 +9,9 @@ namespace NewBuku555
     public class Hutang
     {
         [PrimaryKey, AutoIncrement]
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Amount { get; set; }
+
     }
 }

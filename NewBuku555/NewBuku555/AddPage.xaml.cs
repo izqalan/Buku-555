@@ -23,6 +23,7 @@ namespace NewBuku555
             
             Hutang h = new Hutang()
             {
+                
                 Name = nameEntry.Text,
                 Amount = amountEntry.Text
             };
@@ -35,6 +36,7 @@ namespace NewBuku555
                 if (numberOfRows > 0)
                 {
                     clear(); // clear form
+                    
                     DisplayAlert("Success", "Data has been stored", "OK");
                     Navigation.PopAsync(); // go back to main page
 

@@ -13,9 +13,9 @@
     <ListView x:Name="hutangListView" Margin="5,5,5,0" >
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding Name}"
+                <TextCell x:Name="item" Text="{Binding Name}"
                           Detail="{Binding Amount}" Tapped="OnTappedAsync" 
-                          CommandParameter="{Binding I}"/>
+                          CommandParameter="{Binding Id}"/>
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>

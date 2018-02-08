@@ -4,7 +4,9 @@
              x:Class="NewBuku555.AddPage">
     <StackLayout Margin="20, 20, 20, 0">
         <Entry x:Name="nameEntry" Placeholder="Name"/>
-        <Entry x:Name="amountEntry"  Placeholder="Amount" Keyboard="Numeric"/>
+        <Entry x:Name="amountEntry"  Placeholder="Amount" Keyboard="Numeric" />
+        
+
         <Button Text="Save"
                 Clicked="Button_Clicked"/>
     </StackLayout>
